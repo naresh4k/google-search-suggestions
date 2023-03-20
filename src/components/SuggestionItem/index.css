@@ -1,0 +1,38 @@
+li {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  list-style-type: none;
+}
+
+li p {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  li p {
+    font-size: 18px;
+  }
+}
+
+li button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+li img {
+  height: 16px;
+  width: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  li img {
+    height: 24px;
+    width: 24px;
+  }
+}
